@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MarketWatchTableViewCell" id="Sqn-x7-X8l" customClass="MarketWatchTableViewCell" customModule="tickerchart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sqn-x7-X8l" id="IGe-OM-U51">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cVI-R9-AgD">
+                        <rect key="frame" x="8" y="9" width="359" height="20.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9K-uf-0fw">
+                                <rect key="frame" x="0.0" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.99371439218521118" blue="0.13053253293037415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWU-aR-y8O">
+                                <rect key="frame" x="78.5" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98467868566513062" green="0.96898382902145386" blue="0.94789522886276245" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r24-UE-pQi">
+                                <rect key="frame" x="157" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99943488836288452" green="0.11340615898370743" blue="0.0018854980589821935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="11q-Ct-ZGO">
+                                <rect key="frame" x="235.5" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98467868566513062" green="0.96898382902145386" blue="0.94789522886276245" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxy-Da-tJp">
+                                <rect key="frame" x="314" y="0.0" width="45" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98467868566513062" green="0.96898382902145386" blue="0.94789522886276245" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" red="0.20784313725490194" green="0.20392156862745098" blue="0.10980392156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="cVI-R9-AgD" firstAttribute="top" secondItem="IGe-OM-U51" secondAttribute="top" constant="9" id="4Iu-fo-bTa"/>
+                    <constraint firstItem="cVI-R9-AgD" firstAttribute="leading" secondItem="IGe-OM-U51" secondAttribute="leading" constant="8" id="HgC-6K-rud"/>
+                    <constraint firstAttribute="bottom" secondItem="cVI-R9-AgD" secondAttribute="bottom" constant="14" id="a6q-3g-arN"/>
+                    <constraint firstAttribute="trailing" secondItem="cVI-R9-AgD" secondAttribute="trailing" constant="8" id="gZx-Xe-Zur"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="Ask_Price" destination="11q-Ct-ZGO" id="nRq-fG-hyJ"/>
+                <outlet property="Bid_Price" destination="RWU-aR-y8O" id="UUh-gn-9Y9"/>
+                <outlet property="High_Price" destination="Q9K-uf-0fw" id="0Sv-jP-ITy"/>
+                <outlet property="Last_Price" destination="r24-UE-pQi" id="DMy-OG-fg0"/>
+                <outlet property="Name" destination="wxy-Da-tJp" id="vxy-bS-dgg"/>
+            </connections>
+            <point key="canvasLocation" x="-819.5" y="173"/>
+        </tableViewCell>
+    </objects>
+</document>

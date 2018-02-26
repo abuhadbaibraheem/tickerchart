@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.tableView(_:cellForRowAt:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "company">
+            </PersistentString>
+            <PersistentString
+               value = "marketwatch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:numberOfRowsInSection:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "marketwatch.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.receivedResponse(dictResponse:Tag:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "marketwatch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

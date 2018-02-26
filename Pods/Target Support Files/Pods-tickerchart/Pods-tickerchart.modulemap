@@ -1,0 +1,6 @@
+framework module Pods_tickerchart {
+  umbrella header "Pods-tickerchart-umbrella.h"
+
+  export *
+  module * { export * }
+}

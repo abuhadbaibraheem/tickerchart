@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4810A46CB45C45536FCC444B /* Pods_tickerchart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D033F618A8E65D06055471 /* Pods_tickerchart.framework */; };
 		92CE96B22043AA5D00DA143E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96B12043AA5D00DA143E /* AppDelegate.swift */; };
 		92CE96B42043AA5D00DA143E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96B32043AA5D00DA143E /* ViewController.swift */; };
 		92CE96B72043AA5D00DA143E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CE96B52043AA5D00DA143E /* Main.storyboard */; };
 		92CE96B92043AA5D00DA143E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92CE96B82043AA5D00DA143E /* Assets.xcassets */; };
 		92CE96BC2043AA5D00DA143E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92CE96BA2043AA5D00DA143E /* LaunchScreen.storyboard */; };
+		92CE96C72043AAD300DA143E /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96C62043AAD300DA143E /* HttpHelper.swift */; };
+		92CE96C92043ACF600DA143E /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96C82043ACF600DA143E /* General.swift */; };
+		92CE96CB2043AE6A00DA143E /* Marketwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96CA2043AE6A00DA143E /* Marketwatch.swift */; };
+		92CE96CD2043B10700DA143E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96CC2043B10700DA143E /* Company.swift */; };
+		92CE96D02043B4BC00DA143E /* MarketWatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96CE2043B4BC00DA143E /* MarketWatchTableViewCell.swift */; };
+		92CE96D12043B4BC00DA143E /* MarketWatchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE96CF2043B4BC00DA143E /* MarketWatchTableViewCell.xib */; };
+		92CE96D32043B59A00DA143E /* APITickerChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CE96D22043B59A00DA143E /* APITickerChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D033F618A8E65D06055471 /* Pods_tickerchart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tickerchart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CE96AE2043AA5D00DA143E /* tickerchart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tickerchart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92CE96B12043AA5D00DA143E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92CE96B32043AA5D00DA143E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,15 @@
 		92CE96B82043AA5D00DA143E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92CE96BB2043AA5D00DA143E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92CE96BD2043AA5D00DA143E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CE96C62043AAD300DA143E /* HttpHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		92CE96C82043ACF600DA143E /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		92CE96CA2043AE6A00DA143E /* Marketwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marketwatch.swift; sourceTree = "<group>"; };
+		92CE96CC2043B10700DA143E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		92CE96CE2043B4BC00DA143E /* MarketWatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketWatchTableViewCell.swift; sourceTree = "<group>"; };
+		92CE96CF2043B4BC00DA143E /* MarketWatchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketWatchTableViewCell.xib; sourceTree = "<group>"; };
+		92CE96D22043B59A00DA143E /* APITickerChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITickerChart.swift; sourceTree = "<group>"; };
+		9BF05CF9C3F417824DAF299E /* Pods-tickerchart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickerchart.release.xcconfig"; path = "Pods/Target Support Files/Pods-tickerchart/Pods-tickerchart.release.xcconfig"; sourceTree = "<group>"; };
+		B12EEDE97EF9B187769BF250 /* Pods-tickerchart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tickerchart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tickerchart/Pods-tickerchart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4810A46CB45C45536FCC444B /* Pods_tickerchart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D25D10CF012D7386729617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D033F618A8E65D06055471 /* Pods_tickerchart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F34454B8275806A3FACC718 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B12EEDE97EF9B187769BF250 /* Pods-tickerchart.debug.xcconfig */,
+				9BF05CF9C3F417824DAF299E /* Pods-tickerchart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		92CE96A52043AA5D00DA143E = {
 			isa = PBXGroup;
 			children = (
 				92CE96B02043AA5D00DA143E /* tickerchart */,
 				92CE96AF2043AA5D00DA143E /* Products */,
+				7F34454B8275806A3FACC718 /* Pods */,
+				17D25D10CF012D7386729617 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,45 @@
 		92CE96B02043AA5D00DA143E /* tickerchart */ = {
 			isa = PBXGroup;
 			children = (
+				92CE96C52043AA7400DA143E /* Controller */,
+				92CE96C42043AA7000DA143E /* View */,
+				92CE96C32043AA6A00DA143E /* Model */,
 				92CE96B12043AA5D00DA143E /* AppDelegate.swift */,
-				92CE96B32043AA5D00DA143E /* ViewController.swift */,
-				92CE96B52043AA5D00DA143E /* Main.storyboard */,
 				92CE96B82043AA5D00DA143E /* Assets.xcassets */,
 				92CE96BA2043AA5D00DA143E /* LaunchScreen.storyboard */,
 				92CE96BD2043AA5D00DA143E /* Info.plist */,
 			);
 			path = tickerchart;
+			sourceTree = "<group>";
+		};
+		92CE96C32043AA6A00DA143E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92CE96C82043ACF600DA143E /* General.swift */,
+				92CE96CA2043AE6A00DA143E /* Marketwatch.swift */,
+				92CE96CC2043B10700DA143E /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92CE96C42043AA7000DA143E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92CE96B52043AA5D00DA143E /* Main.storyboard */,
+				92CE96CF2043B4BC00DA143E /* MarketWatchTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92CE96C52043AA7400DA143E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92CE96B32043AA5D00DA143E /* ViewController.swift */,
+				92CE96CE2043B4BC00DA143E /* MarketWatchTableViewCell.swift */,
+				92CE96D22043B59A00DA143E /* APITickerChart.swift */,
+				92CE96C62043AAD300DA143E /* HttpHelper.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92CE96C02043AA5D00DA143E /* Build configuration list for PBXNativeTarget "tickerchart" */;
 			buildPhases = (
+				2A0FD2BC3A8431DDB1AB5D16 /* [CP] Check Pods Manifest.lock */,
 				92CE96AA2043AA5D00DA143E /* Sources */,
 				92CE96AB2043AA5D00DA143E /* Frameworks */,
 				92CE96AC2043AA5D00DA143E /* Resources */,
+				7EF795EB363D80DA3FEA93DF /* [CP] Embed Pods Frameworks */,
+				34DE6377EE62831201B80799 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,10 +198,67 @@
 				92CE96BC2043AA5D00DA143E /* LaunchScreen.storyboard in Resources */,
 				92CE96B92043AA5D00DA143E /* Assets.xcassets in Resources */,
 				92CE96B72043AA5D00DA143E /* Main.storyboard in Resources */,
+				92CE96D12043B4BC00DA143E /* MarketWatchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0FD2BC3A8431DDB1AB5D16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tickerchart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34DE6377EE62831201B80799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tickerchart/Pods-tickerchart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF795EB363D80DA3FEA93DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tickerchart/Pods-tickerchart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tickerchart/Pods-tickerchart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92CE96AA2043AA5D00DA143E /* Sources */ = {
@@ -138,6 +267,12 @@
 			files = (
 				92CE96B42043AA5D00DA143E /* ViewController.swift in Sources */,
 				92CE96B22043AA5D00DA143E /* AppDelegate.swift in Sources */,
+				92CE96D02043B4BC00DA143E /* MarketWatchTableViewCell.swift in Sources */,
+				92CE96C92043ACF600DA143E /* General.swift in Sources */,
+				92CE96CB2043AE6A00DA143E /* Marketwatch.swift in Sources */,
+				92CE96D32043B59A00DA143E /* APITickerChart.swift in Sources */,
+				92CE96C72043AAD300DA143E /* HttpHelper.swift in Sources */,
+				92CE96CD2043B10700DA143E /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +407,7 @@
 		};
 		92CE96C12043AA5D00DA143E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12EEDE97EF9B187769BF250 /* Pods-tickerchart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +423,7 @@
 		};
 		92CE96C22043AA5D00DA143E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF05CF9C3F417824DAF299E /* Pods-tickerchart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
